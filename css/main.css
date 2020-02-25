@@ -70,7 +70,8 @@
     .item-2,
     .item-3,
     .item-4 {
-        width: 33.333%;
+        /* We can use the "calc" function in CSS to perform mathematical operations! */
+        width: calc( 100% / 3 ); /* This will be more precise than 33.333%! */
     }
 
 }
