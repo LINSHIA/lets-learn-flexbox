@@ -55,3 +55,14 @@
     }
 
 }
+
+/* Desktop. */
+@media screen and ( min-width: 1200px ) {
+
+    .item-2,
+    .item-3,
+    .item-4 {
+        width: 33.333%;
+    }
+
+}
